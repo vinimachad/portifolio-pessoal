@@ -119,16 +119,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 100px;
+  margin: 100px 0 40px 0;
 }
 
 #left .details .adress svg {
   margin: 0 10px 0 0;
   font-size: 1.8em;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 #left .details .adress .about-adress strong {
@@ -160,6 +157,69 @@ body {
 
 #left .details .adress .about-adress ul li strong {
   font-size: 1.3em;
+}
+
+#left .details .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  height: 100%;
+}
+
+#left .details .contact svg {
+  margin: 0 10px 0 0;
+  color: white;
+  font-size: 1.8em;
+}
+
+#left .details .contact .about-contact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#left .details .contact .about-contact strong {
+  color: #c9cacd;
+  font-weight: 500;
+}
+
+#left .details .contact .about-contact hr {
+  width: 100%;
+  border: 1px solid #b7b7b7;
+  margin: 5px 0;
+}
+
+#left .details .contact .about-contact ul {
+  list-style: none;
+}
+
+#left .details .contact .about-contact ul li {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.9em;
+  color: #eeeeee;
+}
+
+#left .details .contact .about-contact ul li svg {
+  font-size: 1.5em;
+  color: #c9cacd;
+}
+
+#left .details .contact .about-contact ul li a {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #eeeeee;
 }
 
 #right {

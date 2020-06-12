@@ -58,12 +58,11 @@
         .adress{
             width: 60%;
             display: flex;
-            margin: 100px;
+            margin: 100px 0 40px 0 ;
             svg{
                 margin: 0 10px 0 0;
                 font-size: 1.8em;
                 color: white;       
-                display: flex;
             }
             .about-adress{
                 strong{
@@ -85,6 +84,49 @@
                             font-size: 1.3em;
                         }
                         font-size: 0.8em;
+                    }
+                }
+            }
+        }
+        .contact{
+            display: flex;
+            width: 60%;
+            height: 100%;
+            svg{
+                margin: 0 10px 0 0;
+                color: white;
+                font-size: 1.8em;
+            }
+            .about-contact{
+                width: 100%;
+                strong{
+                    color: #c9cacd;
+                    font-weight: 500;
+                }
+                display: flex;
+                flex-direction: column;
+                hr{
+                    width: 100%;
+                    border: 1px solid #b7b7b7;
+                    margin: 5px 0;
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        svg{
+                            font-size: 1.5em;
+                            color: #c9cacd;
+                        }
+                        a{
+                            text-decoration: none;
+                            font-size: 0.9em;
+                            color: #eeeeee;
+                        }
+                        margin: 10px 0 ;
+                        display: flex;
+                        align-items: center;
+                        font-size: 0.9em;
+                        color: #eeeeee;
                     }
                 }
             }
