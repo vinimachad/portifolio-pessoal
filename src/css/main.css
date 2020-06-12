@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  outline: 0;
+}
+
+html,
+body {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#left {
+  max-width: 30%;
+  width: 100%;
+  height: 100%;
+}
+
+#left .img-left {
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#left .img-left img {
+  max-width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+#left .img-left .about {
+  width: 100%;
+  height: 300px !important;
+  background: #00000081;
+  position: absolute;
+  bottom: 5px;
+  z-index: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#left .img-left .about .profile {
+  width: 60%;
+  height: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#left .img-left .about .profile hr {
+  width: 100%;
+  border: 1px solid #dddd;
+  margin: 10px;
+}
+
+#left .img-left .about .profile strong {
+  font-size: 1.7em;
+  font-weight: 500;
+  color: #c9cacd;
+  text-transform: uppercase;
+}
+
+#left .img-left .about .profile p {
+  color: #eeeeee;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 24px;
+}
+
+#left .details {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  margin-top: -10px;
+}
+
+#right {
+  width: 70%;
+  height: 100%;
+  background: #cccc;
+}
+/*# sourceMappingURL=main.css.map */
