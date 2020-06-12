@@ -348,7 +348,9 @@ body {
 
 #right .experience .hidden-proj .scroll-proj {
   width: 100%;
-  height: 1000px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   overflow: hidden;
 }
 
@@ -376,6 +378,25 @@ body {
 #right .experience .hidden-proj .scroll-proj .box-proj .content-proj {
   width: 80%;
   height: 100%;
+  position: relative;
+}
+
+#right .experience .hidden-proj .scroll-proj .box-proj .content-proj p {
+  margin: 0 0 0 10px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+#right .experience .hidden-proj .scroll-proj .box-proj .content-proj a {
+  text-decoration: none;
+  color: #262626;
+  padding: 10px;
+  background: #262626;
+  position: absolute;
+  bottom: 10px;
+  margin: 0 0 0 10px;
+  border-radius: 10px;
+  color: white;
 }
 
 #right .experience .hidden-proj .scroll-proj .box-proj .pointer {
@@ -386,5 +407,156 @@ body {
   background: #7a5449;
   top: 0;
   left: -7px;
+}
+
+#right .skills {
+  width: 90%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#right .skills strong {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7a5449;
+}
+
+#right .skills hr {
+  border: 3px solid #7a5449;
+  margin: 5px 0;
+}
+
+#right .skills .division {
+  width: 100%;
+  height: 127px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#right .skills .division .pessoal-skill {
+  width: 50%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 3px solid #7a5449;
+}
+
+#right .skills .division .pessoal-skill ul {
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#right .skills .division .pessoal-skill ul li {
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#right .skills .division .pessoal-skill ul li .rounded-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#right .skills .division .pessoal-skill ul li .rounded-icons svg {
+  color: #c9cacd;
+}
+
+#right .skills .division .pessoal-skill ul li span {
+  font-size: 12px;
+  text-align: center;
+}
+
+#right .skills .division .tools-skills {
+  width: 50%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#right .skills .division .tools-skills ul {
+  width: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 85px;
+}
+
+#right .skills .division .tools-skills ul li {
+  margin: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#right .skills .division .tools-skills ul li .rounded-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#right .skills .division .tools-skills ul li .rounded-icons svg {
+  color: #c9cacd;
+}
+
+#right .skills .division .tools-skills ul li span {
+  font-size: 12px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
