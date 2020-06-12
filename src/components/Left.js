@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaMapMarkerAlt} from 'react-icons/fa';
 import ft from '../assets/IMG_20191221_163648_506.jpg'
 export default function Left() {
     return(
@@ -27,7 +28,21 @@ export default function Left() {
                 </div>
             </div>
             <div className="details">
-                    <h1>location</h1>
+                <div className="adress">
+                    <FaMapMarkerAlt/>
+                    <div className="about-adress">
+                        <strong>Endereço</strong>
+                        <hr/>
+                        <ul>
+                            <li>
+                                <strong>Dados: </strong>187, Rua Ararás, São Francisco.</li>
+                            <li><strong>CEP: </strong>79118-040.</li>
+                            <li><strong>Complemento: </strong>Ao lado da mascarenhas de moraes.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="contact"></div>
+                <div className="social"></div>
             </div>
         </div>
     );
