@@ -225,6 +225,166 @@ body {
 #right {
   width: 70%;
   height: 100%;
-  background: #cccc;
+  background: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#right .box {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#right .box h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+  font-size: 50px;
+  color: #7a5449;
+}
+
+#right .box hr {
+  border: 1px solid #7a544944;
+  width: 40%;
+  margin: 5px 0;
+}
+
+#right .box h4 {
+  font-weight: 400;
+  font-size: 15px;
+  margin: 5px 0;
+  color: #7a5449;
+}
+
+#right .history {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#right .history strong {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7a5449;
+}
+
+#right .history hr {
+  margin: 5px 0 0 0;
+  width: 100%;
+  border: 3px solid #7a5449;
+}
+
+#right .history p {
+  line-height: 26px;
+  text-align: justify;
+  max-width: 96%;
+  font-size: 14px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-indent: 2em;
+  margin: 10px 0 0 0;
+}
+
+#right .experience {
+  width: 90%;
+  margin: 30px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#right .experience strong {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #7a5449;
+}
+
+#right .experience hr {
+  border: 3px solid #7a5449;
+  margin: 5px 0;
+}
+
+#right .experience .hidden-proj {
+  overflow-y: scroll;
+  width: 96%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 400px;
+}
+
+#right .experience .hidden-proj .scroll-proj {
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}
+
+#right .experience .hidden-proj .scroll-proj .box-proj {
+  width: 96%;
+  height: 200px;
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#right .experience .hidden-proj .scroll-proj .box-proj .name-proj {
+  width: 20%;
+  height: 100%;
+  border-right: 3px solid #7a5449;
+}
+
+#right .experience .hidden-proj .scroll-proj .box-proj .name-proj span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #262626;
+}
+
+#right .experience .hidden-proj .scroll-proj .box-proj .content-proj {
+  width: 80%;
+  height: 100%;
+}
+
+#right .experience .hidden-proj .scroll-proj .box-proj .pointer {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  background: #7a5449;
+  top: 0;
+  left: -7px;
 }
 /*# sourceMappingURL=main.css.map */

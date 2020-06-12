@@ -55,7 +55,6 @@ export default function Left() {
                         </ul>
                     </div>
                 </div>
-                <div className="social"></div>
             </div>
         </div>
     );

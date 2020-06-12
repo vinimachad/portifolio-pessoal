@@ -1,11 +1,11 @@
 import React from 'react';
 import Left from './Left';
+import Right from './Right'
 export default function Container() {
     return(
         <div id="container">
             <Left/>
-            <div id="right">
-            </div>
+            <Right/>
         </div>
         );
 }
