@@ -222,6 +222,18 @@ body {
   color: #eeeeee;
 }
 
+@media (max-width: 1024px) {
+  #left .img-left .about .profile {
+    width: 80%;
+  }
+  #left .details .adress {
+    width: 80%;
+  }
+  #left .details .contact {
+    width: 80%;
+  }
+}
+
 #right {
   width: 70%;
   height: 100%;
@@ -558,5 +570,21 @@ body {
 #right .skills .division .tools-skills ul li span {
   font-size: 12px;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  #right .box h1 {
+    font-size: 39px;
+  }
+  #right .experience .hidden-proj .scroll-proj .box-proj .content-proj p {
+    font-size: 14px;
+  }
+  #right .skills .division .pessoal-skill ul li {
+    margin: 0 1px;
+  }
+  #right .skills .division .pessoal-skill ul li .rounded-icons {
+    width: 40px;
+    height: 40px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

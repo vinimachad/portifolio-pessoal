@@ -133,3 +133,23 @@
         }
     }
 }
+
+@media (max-width:1024px){
+    #left{
+        .img-left{
+            .about{
+                .profile{
+                    width: 80%;
+                }
+            }
+        }
+        .details{
+            .adress{
+                width: 80%;
+            }
+            .contact{
+                width: 80%;  
+            }
+        }
+    }     
+}

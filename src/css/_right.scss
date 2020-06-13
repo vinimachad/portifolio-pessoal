@@ -219,5 +219,45 @@
                 }
             } 
             }
+    }
+}
+
+@media (max-width:1024px){
+    #right{
+        .box{
+            h1{
+                font-size: 39px;
+            }
+        }
+        .experience{
+            .hidden-proj{
+                .scroll-proj{
+                    .box-proj{
+                        .content-proj{
+                            p{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .skills{
+            .division{
+                .pessoal-skill{
+                    ul{
+                        li{
+                            margin: 0 1px;
+                            .rounded-icons{
+                                width: 40px;
+                                height: 40px;
+                            }
+                        }
+                    }
+                } 
+                
+            }
         }
     }
+}
