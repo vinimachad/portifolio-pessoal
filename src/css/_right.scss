@@ -261,3 +261,66 @@
         }
     }
 }
+@media(max-width:768px){
+    #right{
+        .box{
+            h1{
+                font-size: 30px;
+            }
+        }
+        .experience{
+            .hidden-proj{
+                .scroll-proj{
+                    .box-proj{
+                        margin: 20px 0 0 0;
+                        .name-proj{
+                        }
+                        .content-proj{
+                            p{
+                                font-size: 11px;
+                            }
+                            a{
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .skills{         
+            .division{
+                .pessoal-skill{
+                    ul{
+                        li{
+                            margin: 0 1px;
+                            .rounded-icons{
+                                width: 30px;
+                                height: 30px;
+                            }
+                            span{
+                                font-size: 9px;
+                            }
+                        }
+                    }
+                } 
+                .tools-skills{
+                    ul{
+                        height: 63px;
+                        li{
+                            margin: 0 2px;
+                            .rounded-icons{
+                                width: 30px;
+                                height: 30px;
+                            }
+                            span{
+                                font-size: 9px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
