@@ -17,8 +17,12 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
 }
-
+@media (max-width:425px){
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @import 'left';
 @import 'right';
