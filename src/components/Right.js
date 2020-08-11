@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaUserFriends, FaUsers, FaBook, FaAlgolia, FaHeart, FaReact, FaHtml5, FaSass, FaFigma, FaJsSquare } from 'react-icons/fa'
 import layoutPage from '../assets/layout-page.png';
-import projects from '../data';
 import axios from 'axios'
 export default function Right() {
     const [data, setData] = useState([]);
